@@ -3,7 +3,7 @@ package QA.intro.lesson5;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class homework6 {
+public class homeworkLecture6 {
     public static void main(String[] args) {
         //HW1
         System.out.println(" Homework task 1 ");
