@@ -1,4 +1,4 @@
-package QA.intro;
+package org.example;
 
 import java.util.Scanner;
 
@@ -11,5 +11,5 @@ public class homework
         System.out.println("Nice to meet you " + userName + "!" + " May I know your favourite hobby?");
         String  userHobby = scanner.nextLine();
         System.out.println("What a coincidence! I totally love " + userHobby + " as well!");
-    }
+        }
 }

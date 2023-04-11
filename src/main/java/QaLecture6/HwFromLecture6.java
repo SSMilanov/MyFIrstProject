@@ -1,7 +1,5 @@
 package QaLecture6;
 
-import java.awt.*;
-import java.lang.runtime.SwitchBootstraps;
 import java.util.Scanner;
 
 public class HwFromLecture6 {
@@ -57,35 +55,9 @@ public class HwFromLecture6 {
             System.out.println("You have selected " + weekDNumber + " Day of the week is Saturday.");
         if (weekDNumber == 7)
             System.out.println("You have selected " + weekDNumber + " Day of the week is Sunday.");
-
-
-        // Using Switch
-public static void whichDayOfTheWeek(byte day)
-
-        Scanner dayofweek = new Scanner(System.in);
-        System.out.println("Please enter a number between 1-7");
-        byte weekday = dayofweek.nextByte();
-
-        switch (day){
-
-            case 1:
-                System.out.println("You have selected " + weekday + " Day of the week is Monday.");
-            case 2:
-                System.out.println("You have selected " + weekday + " Day of the week is Tuesday.");
-            case 3:
-                System.out.println("You have selected " + weekday + " Day of the week is Wednesday.");
-            case 4:
-                System.out.println("You have selected " + weekday + " Day of the week is Thursday.");
-            case 5:
-                System.out.println("You have selected " + weekday + " Day of the week is FriYay!.");
-            case 6:
-                System.out.println("You have selected " + weekday + " Day of the week is Saturday.");
-            case 7:
-                System.out.println("You have selected " + weekday + " Day of the week is Sunday.");
-            default:
-                System.out.println("Invalid entry.");
+        if (weekDNumber >= 8) {
+            System.out.println("Incorrect number selected ");
+            return;
         }
-
-
     }
 }

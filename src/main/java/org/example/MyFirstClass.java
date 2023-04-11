@@ -1,4 +1,4 @@
-package QA.intro;
+package org.example;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class MyFirstClass {
         int five = 7;
         System.out.println("Hello Neo.");
         System.out.println("Folow the white cat...");
-        System.out.println("five");
+        System.out.println(five);
 Scanner scanner = new Scanner(System.in);
 
 System.out.println("Please enter your name");
@@ -26,12 +26,5 @@ if (userAge < 0 ){
         }else {
             System.out.println("Cheers, " + userName);
         }
-
-
-
-
-
-
-
     }
 }

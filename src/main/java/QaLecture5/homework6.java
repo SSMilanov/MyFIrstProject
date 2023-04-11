@@ -1,6 +1,5 @@
-package QA.intro.lesson5;
+package QaLecture5;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class homework6 {
