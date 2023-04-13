@@ -62,7 +62,8 @@ public class HWL7 {
         System.out.println("--------- Task 4 ----------\n" + "Count to N using method\n" );
         printToN();
 
-        System.out.println("--------- Task 5 ----------\n" + "Numbers that cannot be divided  by 3 & 7\n" );
+        /*Task 4 - Numbers that cannot be divided  by 3 & 7 using the array in example*/
+        System.out.println("--------- Task 5 ----------\n" + "Numbers that cannot be divided  by 3 & 7 using the array in example\n" );
 
 
         for (int i = 0; i <= exArray.length ; i++) {
