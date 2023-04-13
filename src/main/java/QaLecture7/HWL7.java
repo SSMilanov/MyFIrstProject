@@ -3,6 +3,8 @@ package QaLecture7;
 import java.util.Scanner;
 
 public class HWL7 {
+
+
     public static void main(String[] args) {
 
         System.out.println("--------- Task 1 ----------\n");
@@ -57,16 +59,33 @@ public class HWL7 {
         System.out.println("The sum of the even numbers is: " + sumEven);
         System.out.println("The sum of the odd numbers is: " + sumOdd);
 
+        System.out.println("--------- Task 4 ----------\n" + "Count to N using method\n" );
+        printToN();
 
-        System.out.println("--------- Task 4 ----------\n" + "Print numbers from 1 - n when called from a method \n");
-
-
-
-         }
+        System.out.println("--------- Task 5 ----------\n" + "Numbers that cannot be divided  by 3 & 7\n" );
 
 
+        for (int i = 0; i <= exArray.length ; i++) {
+            if (i % 3 != 0 && i % 7 != 0){
+                System.out.println(i + " ");
+            };
+        }
     }
 
+    /* Task 4 Count to N method. */
+    public static void printToN() {
+
+        Scanner nScan = new Scanner(System.in);
+        System.out.println(" Enter a number for n\n");
+        int n = nScan.nextInt();
+
+        System.out.printf("The numbers from %d to are: \n", n);
+        for (int i = 1; i < n; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
 
 
 
