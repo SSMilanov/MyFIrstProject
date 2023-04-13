@@ -9,5 +9,6 @@ public class Test {
     brownie.clean();
     brownie.sleep();
     brownie.setAddress(new Address("Sofia","Bulgaria", "Somewhere in Lyulin" ));
+    brownie.eat();
     }
 }
